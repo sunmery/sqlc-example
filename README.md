@@ -1,3 +1,19 @@
+## 优势
+
+### 性能
+
+sqlc比gorm等ORM框架的基准测试中, 性能大约为这些ORM框架的3-5倍
+
+### 学习成本
+
+ORM需要学习ORM框架的内容, CURD都需要看文档
+
+sqlc是手写sql, 然后由go官方的database/sql的lib/pq生成的go结构体代码
+
+## 缺点
+
+仅对Postgres支持较好, 其它数据库支持不完整, 对MySQL, SQLite等支持较差
+
 ## [安装](https://docs.sqlc.dev/en/stable/overview/install.html)
 
 - go:
